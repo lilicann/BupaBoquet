@@ -17,6 +17,7 @@ body {
   background-color: var(---bg);
   color: #fff;
   min-height: 3300px;
+  font-size: 2rem;
 }
 
 /* Navbar */
@@ -399,6 +400,10 @@ p {
     transform: scaleX(0.2);
   }
 
+  #home .content p {
+    font-size: 5rem;
+  }
+
   .about .row {
     flex-wrap: wrap;
   }
@@ -422,4 +427,7 @@ p {
 }
 .menu-item {
   margin-bottom: 2rem;
+}
+#home .content p {
+  font-size: 5rem;
 }
