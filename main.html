@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- my stle -->
+
+    <title>Bupa Boquet</title>
+  </head>
+  <body>
+    <!-- Navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"> <span>Bupa</span> Boquet</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#menu" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end-->
+
+    <!-- Hero Section Start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Boq<span>u</span>et</h1>
+        <p>"Keindahan Alam <br />dalam Setiap Buah Karya"</p>
+        <a href="#menu" class="cta">beli sekarang</a>
+      </main>
+    </section>
+    <!-- feather icons-->
+    <script>
+      feather.replace();
+    </script>
+    <!-- Hero Section End-->
+
+    <!-- About Sections start-->
+    <section id="about" class="about">
+      <div class="box">
+        <h2><span> Tentang </span> Kami</h2>
+        <div class="row">
+          <div class="content">
+            <h3>kenapa harus boquet bunga??</h3>
+            <p>
+              Boquet bunga merupakan simbol cinta dan kasih sayang yang abadi. Mereka memiliki kekuatan untuk mengungkapkan perasaan tanpa kata-kata. Ketika seseorang memberikan boquet bunga kepada orang yang dicintai, itu adalah ungkapan
+              langsung dari perasaan dan emosi mereka.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Sections end-->
+
+    <!-- Menu Section Start-->
+    <section id="menu" class="menu">
+      <h2><span> Menu </span> Kami</h2>
+      <p>Terima kasih telah memilih kami sebagai mitra Anda dalam menghiasi momen berharga dengan keindahan alam yang tumbuh dalam setiap bunga.</p>
+      <div class="menu-box">
+        <div class="menu-item">
+          <img src="menu/mawar.jpg" alt="Menu 1" />
+          <h3>Buket Mawar</h3>
+          <p>Rp. 650.000.00</p>
+          <a href="#" class="cta">Beli</a>
+        </div>
+        <div class="menu-item">
+          <img src="menu/edelweiss.jpg" alt="Menu 2" />
+          <h3>Buket Edelweiss</h3>
+          <p>Rp. 700.000.00</p>
+          <a href="#" class="cta">Beli</a>
+        </div>
+        <div class="menu-item">
+          <div class="box3">
+            <h3>Klik disamping ini untuk info lengkap tentang apa saja yang kita jual</h3>
+            <a href="#" class="cta">Klik disini</a>
+          </div>
+        </div>
+        <!-- Add more menu items as needed -->
+      </div>
+    </section>
+
+    <!-- Menu Section End-->
+
+    <!-- start contact Section-->
+    <section id="contact" class="contact">
+      <h2><span> Kontak </span> Kami</h2>
+      <p>Terima kasih telah memilih kami sebagai mitra Anda dalam menghiasi momen berharga dengan keindahan alam yang tumbuh dalam setiap bunga.</p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.136574499923!2d107.64074187453345!3d-6.874234993124527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7689202d2a5%3A0xe6262d220d3b62ba!2sBali%20Garden%20City%20View!5e0!3m2!1sid!2sid!4v1686361485523!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Mail" />
+          </div>
+          <div class="input-group">
+            <i data-feather="Phone"></i>
+            <input type="text" placeholder="No Handphone" />
+          </div>
+          <div class="input-group">
+            <i data-feather="Phone"></i>
+            <input type="text" placeholder="Pesan" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- End Contact Section-->
+
+    <!--Footer Start-->
+    <footer>
+      <div class="social-media">
+        <a href="www.facebook.com" class="social-link"><i class="fab fa-facebook-f">facebook</i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter">twitter</i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram">instagram</i></a>
+      </div>
+      <p>Follow us on social media</p>
+    </footer>
+    <!--Footer End-->
+    <!-- My Javascript-->
+    <script src="script.js"></script>
+  </body>
+</html>
